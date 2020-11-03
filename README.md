@@ -25,3 +25,6 @@
 
 
 yarn add @typescript-eslint/eslint-plugin@latest eslint-config-airbnb-base@latest eslint-plugin-import@^2.21.2 @typescript-eslint/parser@latest -D
+
+ add --inspect para debugar
+ ts-node-dev --inspect --ignore-watch node_modules src/server.ts
