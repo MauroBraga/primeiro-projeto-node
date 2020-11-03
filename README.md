@@ -28,3 +28,8 @@ yarn add @typescript-eslint/eslint-plugin@latest eslint-config-airbnb-base@lates
 
  add --inspect para debugar
  ts-node-dev --inspect --ignore-watch node_modules src/server.ts
+
+
+# SOLID
+    . Sigle Responsability Principle
+    . Dependecy Invertion Principle
