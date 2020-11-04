@@ -42,3 +42,20 @@ yarn add @typescript-eslint/eslint-plugin@latest eslint-config-airbnb-base@lates
     -> ORM (Objeto Relational Map) : Mapear registros da nossa tabela com objetos no java script
         Exemplos: sequelize, typeorm(excelente com o uso do type script)
         . Fornece abstração do banco, é indifirente o banco que está sendo usado.
+# Docker
+    -> Criação de ambientes isolados (container)
+    -> Containers expõe portas para comunicação
+
+    Principais conceitos
+        . Imagem -> são tecnologias q podemos colocar em um container
+        . Container -> instanceas das imagens
+        . Docker Registry (Docker hub)
+        . Docker files
+            - Receita de uma imagem
+
+# TypeORM
+    - yarn add typeorm
+    - yarn pg  (Diver do banco de dados que no caso é o postgres)
+    - criar ormconfig.json
+    - criar a pasta database
+lsof -i :3333
