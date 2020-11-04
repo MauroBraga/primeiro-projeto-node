@@ -33,3 +33,12 @@ yarn add @typescript-eslint/eslint-plugin@latest eslint-config-airbnb-base@lates
 # SOLID
     . Sigle Responsability Principle
     . Dependecy Invertion Principle
+
+
+# Estratégias de banco de dados
+    -> Drive nativo do banco de dados
+    -> Query Buielder (Construir as querys com javascript)
+        Exemplo: Knex
+    -> ORM (Objeto Relational Map) : Mapear registros da nossa tabela com objetos no java script
+        Exemplos: sequelize, typeorm(excelente com o uso do type script)
+        . Fornece abstração do banco, é indifirente o banco que está sendo usado.
