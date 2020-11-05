@@ -58,4 +58,24 @@ yarn add @typescript-eslint/eslint-plugin@latest eslint-config-airbnb-base@lates
     - yarn pg  (Diver do banco de dados que no caso é o postgres)
     - criar ormconfig.json
     - criar a pasta database
+    - Dentro do arquivo ormconfig adicionar as configurações do migration
+
+    - Criar Arquivo
+        . yarn typeorm migration:create -n CreateAppointments
+    - Executa migrations
+        . yarn typeorm migration:run
+    - Desfazer
+        . yarn typeorm migration:revert
+    - Show Migrations q já foram executadas
+      . yarn typeorm migration:show
+
+    - Mapeamento da Entidade (Hablita usar o decorater)
+        . No arquivo tsconfig habilitar
+            "experimentalDecorators": true,        /* Enables experimental support for ES7  decorators. */
+            "emitDecoratorMetadata": true,         /* Enables experimental support for emitting type metadata for decorators. */
+
+    - Desabilitar a propriedade a baixo para não precisar inicializar uma variavel
+        . "strictPropertyInitialization": false,
+
+
 lsof -i :3333
